@@ -1,11 +1,13 @@
-import Teste from './components/specific/Teste';
+import Header from './components/specific/Header';
+import CoreConcepts from './components/specific/sections/CoreConcepts';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Ola mundo</h1>
-      <Teste />
-    </div>
+    <>
+      <Header />
+      <CoreConcepts />
+    </>
   );
 }
 

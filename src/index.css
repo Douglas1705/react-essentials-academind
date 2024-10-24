@@ -3,3 +3,19 @@
 @tailwind utilities;
 
 /* Global css */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    font-family: "Quicksand", sans-serif;
+    background: radial-gradient(#280a48, #20043d);
+    height: 100vh;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
