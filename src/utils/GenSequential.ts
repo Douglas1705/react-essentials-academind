@@ -6,7 +6,6 @@ class GenSequential {
 
   constructor(description: string[]) {
     this.description = description;
-    console.log(this.description);
   }
 
   getNextDescription(): string {
