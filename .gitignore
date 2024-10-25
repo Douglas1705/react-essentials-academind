@@ -1,0 +1,73 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tailwind CSS
+*.css
+*.css.map
+
+# Vite
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.swp
+
+
+# Arquivos de configuração específicos
+.prettierrc
+eslint.config.js
+postcss.config.js
+tailwind.config.js
+tsconfig.app.json
+tsconfig.app.tsbuildinfo
+tsconfig.node.json
+tsconfig.node.tsbuildinfo
+vite.config.ts
+z.information.txt
