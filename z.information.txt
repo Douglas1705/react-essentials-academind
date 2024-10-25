@@ -27,3 +27,16 @@ Para colocar na page do github
 - no github SETTINGS > PAGES > GH-PAGE ./ROOT
 
 /// FINAL PAGE GITHUB ///
+
+
+// medidas taiwind //
+
+    sm: 640px
+
+    md: 768px
+
+    lg: 1024px
+
+    xl: 1280px
+
+    2xl: 1536px2
