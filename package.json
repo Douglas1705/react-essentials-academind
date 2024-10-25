@@ -1,4 +1,5 @@
-{  
+{ 
+  "homepage": "https://Douglas1705.github.io/react-essentials-academind",
   "name": "react-essentials",
   "private": true,
   "version": "0.0.0",
@@ -12,7 +13,9 @@
     "watch:css": "tailwindcss -i ./src/index.css -o ./dist/styles.css --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
