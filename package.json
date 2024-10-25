@@ -5,17 +5,17 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {    
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "build": "npm run build:css && tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "build:css": "tailwindcss -i ./src/index.css -o ./dist/styles.css",
-    "watch:css": "tailwindcss -i ./src/index.css -o ./dist/styles.css --watch",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
+      "dev": "vite",
+      "build": "npm run build:css && tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview",
+      "build:css": "tailwindcss -i ./src/index.css -o ./dist/styles.css",
+      "watch:css": "tailwindcss -i ./src/index.css -o ./dist/styles.css --watch",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
     "react": "^18.3.1",
